@@ -565,6 +565,13 @@ footer {
         font-size: 0.9rem;
     }
 }
+.project-image video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
     </style>
 </head>
 <body>
@@ -636,10 +643,9 @@ footer {
                 
                 <!-- === PROJECT 1 === -->
                 <div class="project-card">
-                    <div class="project-image">
-                        <!-- TODO: Replace with your project screenshot (e.g., "images/project1.png") -->
-                        <img src="https://via.placeholder.com/400x250/38bdf8/0f172a?text=AI+Grain+Analyzer+UI" alt="Project 1 Screenshot">
-                    </div>
+                     <div class="project-image">
+  <video src="videos/grain-analyzer.mp4" controls muted autoplay loop></video>
+</div>
                     <div class="project-info">
                         <p class="project-type">client project</p>
                         <h3 class="project-title">Logs Analyzer</h3>
