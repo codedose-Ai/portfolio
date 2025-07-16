@@ -678,6 +678,32 @@
             left: 0;
             top: 1px;
         }
+        /* === RESUME SECTION === */
+.resume-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.resume-content p {
+    color: var(--subtle-text-color);
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.resume-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+/* Add a small gap between button text and icon */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+}
     </style>
 </head>
 
@@ -746,7 +772,28 @@
                 </div>
             </div>
         </section>
-
+<!-- ==================== RESUME SECTION ==================== -->
+<section id="resume" class="container">
+    <h2 class="section-title"><span></span> My Resume</h2>
+    <div class="resume-content">
+        <p>
+            For a more detailed look at my professional background, skills, and project experience, you can view or download my resume.
+        </p>
+        <div class="resume-buttons">
+            <!-- 
+              IMPORTANT: 
+              1. Add your resume file (e.g., "Karan_Khodke_Resume.pdf") to your project directory.
+              2. Replace "#" in the links below with the actual path to your resume file.
+            -->
+            <a href="path/to/your/Karan_Khodke_Resume.pdf" target="_blank" class="btn btn-primary">
+                <i class="fa-solid fa-eye"></i> View Resume
+            </a>
+            <a href="path/to/your/Karan_Khodke_Resume.pdf" download="Karan_Khodke_Resume.pdf" class="btn">
+                <i class="fa-solid fa-download"></i> Download Resume
+            </a>
+        </div>
+    </div>
+</section>
         <section id="skills" class="container">
             <h2 class="section-title"><span></span> My Skills</h2>
             <div class="skills-grid">
